@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Portal - School Management System</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="teacher-portal">
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="School Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Dashboard</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Attendance</a></li>
+                <li><a href="#">Grade Book</a></li>
+                <li><a href="#">Communication</a></li>
+                <li><a href="HomePage.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome, Teacher!</h1>
+        <div class="dashboard-grid">
+            <div class="dashboard-item">
+                <h2>Today's Classes</h2>
+                <ul id="classesList"></ul>
+            </div>
+            <div class="dashboard-item">
+                <h2>Pending Assignments</h2>
+                <ul id="assignmentsList"></ul>
+            </div>
+            <div class="dashboard-item">
+                <h2>Recent Messages</h2>
+                <ul id="messagesList"></ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 School Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="teacher-portal.js"></script>
+</body>
+</html>

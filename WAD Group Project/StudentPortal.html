@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - School Management System</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="student-portal">
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="School Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Dashboard</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Grades</a></li>
+                <li><a href="#">Assignments</a></li>
+                <li><a href="HomePage.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome, Student!</h1>
+        <div class="dashboard-grid">
+            <div class="dashboard-item">
+                <h2>Upcoming Assignments</h2>
+                <ul id="assignmentsList">
+                    <!-- Assignments will be dynamically added here -->
+                </ul>
+            </div>
+            <div class="dashboard-item">
+                <h2>Recent Grades</h2>
+                <ul id="gradesList">
+                    <!-- Grades will be dynamically added here -->
+                </ul>
+            </div>
+            <div class="dashboard-item">
+                <h2>Today's Schedule</h2>
+                <ul id="scheduleList">
+                    <!-- Schedule will be dynamically added here -->
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 School Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="student-portal.js"></script>
+</body>
+</html>

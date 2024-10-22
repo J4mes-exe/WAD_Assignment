@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal - School Management System</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="admin-portal">
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="School Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Dashboard</a></li>
+                <li><a href="#">User Management</a></li>
+                <li><a href="#">Course Management</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="HomePage.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome, Administrator!</h1>
+        <div class="dashboard-grid">
+            <div class="dashboard-item">
+                <h2>System Overview</h2>
+                <ul id="overviewList"></ul>
+            </div>
+            <div class="dashboard-item">
+                <h2>Recent Activities</h2>
+                <ul id="activitiesList"></ul>
+            </div>
+            <div class="dashboard-item">
+                <h2>Pending Approvals</h2>
+                <ul id="approvalsList"></ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 School Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="admin-portal.js"></script>
+</body>
+</html>
